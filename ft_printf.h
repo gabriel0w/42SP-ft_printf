@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_printf.h                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: gbelo-so <gbelo-so@student.42sp.org.br>    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2021/12/11 18:12:14 by gbelo-so          #+#    #+#             */
+/*   Updated: 2021/12/11 18:12:17 by gbelo-so         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #ifndef FT_PRINTF_H
 # define FT_PRINTF_H
 
@@ -6,9 +18,6 @@
 # include <stdlib.h>
 # include "libft/libft.h"
 
-/**
- * @return return the number of characters printed (excluding the null byte).
-*/
 int				ft_printf(const char *format, ...);
 int				print_char(va_list args);
 int				print_number(va_list args);
